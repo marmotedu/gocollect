@@ -72,6 +72,7 @@
 + 数据库同步
 + 限流
 + 网关层/service mesh层
++ CLI增加分库分表功能
 
 
 ## 待评估功能
@@ -80,6 +81,12 @@
 + 定时任务
 + Graphql
 + Webscoket
++ Go项目发布变更流程
++ Crontab系统 -- nightwatch
+
+### 前端功能
+
++ vue?/react?
 
 ### 彻底微服务化
 + 消息队列
