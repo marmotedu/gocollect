@@ -83,6 +83,7 @@
 + Webscoket
 + Go项目发布变更流程
 + Crontab系统 -- nightwatch
++ JobFlow - 类似airflow的轻量级子系统
 
 ### 前端功能
 
@@ -92,7 +93,7 @@
 + 消息队列
 + 配置中心
 + 调用链追踪
-+ 监控告警
++ 监控告警 - prometheus
 + EFK
 + 服务注册/服务发现
 + 日志管理
