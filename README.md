@@ -4,8 +4,13 @@
 
 大家可以提issue反馈，感谢大家！
 
+大概可以分2个版本，版本1和版本2。
 
-## 当前的 Feature
++ 版本1：目前经典的go项目构建方式
++ 版本2：Go项目构建思路演进版本：基于定义、声明式
+
+## 版本1
+### 当前的 Feature(v1)
 
 + 开发环境配置
 + 代码结构和目录设计
@@ -64,30 +69,43 @@
   + Serverless化部署
 + 云原生架构设计
 
-## 待实现功能
+### 待实现功能
 
 + Validate
+  + gin binding 
+  + custom validate
+  + validate function
 + 打包：rpm、Dockerfile
 + A/B测试
 + 数据库同步
 + 限流
-+ 网关层/service mesh层
 + CLI增加分库分表功能
++ 验证码
++ 邮箱密码找回
 
 
 ## 待评估功能
 
-+ Mongo支持
-+ 定时任务
-+ Graphql
-+ Webscoket
 + Go项目发布变更流程
-+ Crontab系统 -- nightwatch
-+ JobFlow - 类似airflow的轻量级子系统
 
 ### 前端功能
 
 + vue?/react?
+
+## 版本1
+
+### Feature
++ 网关层/service mesh层
++ Graphql
++ Mongo支持
++ Crontab系统 -- nightwatch
++ JobFlow - 类似airflow的轻量级子系统
++ Webscoket
+
+### 架构设计思路改变
+
++ 基于模型定义（通过通过protobuf做定义解耦）
++ list & watch(类似于k8s operator设计思路)
 
 ### 彻底微服务化
 + 消息队列
