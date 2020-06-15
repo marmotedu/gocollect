@@ -4,10 +4,11 @@
 
 大家可以提issue反馈，感谢大家！
 
-大概可以分2个版本，版本1和版本2。
+大概可以分3个版本：
 
-+ 版本1：目前经典的go项目构建方式
-+ 版本2：Go项目构建思路演进版本：基于定义、声明式
++ V1：经典构建方式  - ![V1架构](./docs/image/architecture_v1.png)
++ V2：微服务化 - ![V2架构](./docs/image/architecture_v2.png)
++ V3：架构升级 - ![V3架构](./docs/image/architecture_v3.png)
 
 ## 版本1
 ### 当前的 Feature(v1)
@@ -64,7 +65,7 @@
   + 性能测试
   + 性能分析
 + 部署方式
-  + 物理机部署
+  + 物理机/虚拟机部署
   + Kubernetes部署
   + Serverless化部署
 + 云原生架构设计
@@ -104,7 +105,7 @@
 
 ### 架构设计思路改变
 
-+ 基于模型定义（通过通过protobuf做定义解耦）
++ 基于模型定义（通过protobuf做定义解耦）
 + list & watch(类似于k8s operator设计思路)
 
 ### 彻底微服务化
