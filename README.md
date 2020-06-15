@@ -6,9 +6,14 @@
 
 大概可以分3个版本：
 
-+ V1：经典构建方式  - ![V1架构](./docs/image/architecture_v1.png)
-+ V2：微服务化 - ![V2架构](./docs/image/architecture_v2.png)
-+ V3：架构升级 - ![V3架构](./docs/image/architecture_v3.png)
++ V1：经典构建方式
+![V1架构](./docs/image/architecture_v1.png)
+
++ V2：微服务化
+![V2架构](./docs/image/architecture_v2.png)
+
++ V3：架构升级
+![V3架构](./docs/image/architecture_v3.png)
 
 ## 版本1
 ### 当前的 Feature(v1)
