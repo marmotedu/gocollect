@@ -108,13 +108,6 @@
 + JobFlow - 类似airflow的轻量级子系统
 + Webscoket
 
-### 架构设计思路改变
-
-+ 基于模型定义（通过protobuf做定义解耦）
-+ list & watch(类似于k8s operator设计思路)
-+ golang面向接口编程
-+ etcd支持
-
 ### 彻底微服务化
 + 消息队列
 + 配置中心
@@ -123,3 +116,12 @@
 + EFK
 + 服务注册/服务发现
 + 日志管理
+
+## 版本3
+
+### 架构设计思路改变
+
++ 基于模型定义（通过protobuf做定义解耦）
++ list & watch(类似于k8s operator设计思路)
++ golang面向接口编程
++ etcd支持
