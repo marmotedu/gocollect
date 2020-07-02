@@ -112,6 +112,8 @@
 
 + 基于模型定义（通过protobuf做定义解耦）
 + list & watch(类似于k8s operator设计思路)
++ golang面向接口编程
++ etcd支持
 
 ### 彻底微服务化
 + 消息队列
