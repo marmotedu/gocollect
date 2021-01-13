@@ -88,6 +88,7 @@
 + CLI增加分库分表功能
 + 验证码
 + 邮箱密码找回
++ elect(kube-controller-manager选举)
 
 
 ## 待评估功能
@@ -107,6 +108,9 @@
 + Crontab系统 -- nightwatch
 + JobFlow - 类似airflow的轻量级子系统
 + Webscoket
++ Sync mongo data to Elasticsearch
++ 有状态服务leader elect
++ 对接etcd: list & watch,替换pub/sub
 
 ### 彻底微服务化
 + 消息队列
